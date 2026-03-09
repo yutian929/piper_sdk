@@ -1,10 +1,10 @@
 #!/bin/bash
 declare -A USB_PORTS 
 
-# USB_PORTS["3-1.3:1.0"]="can_arm:1000000"
-USB_PORTS["3-1.1:1.0"]="can_arm2:1000000"
-USB_PORTS["3-1.2:1.0"]="can_arm2:1000000"
-# USB_PORTS["3-1.5:1.0"]="can_arm1:1000000"
+USB_PORTS["1-6.1.1:1.0"]="s_l:1000000"
+USB_PORTS["1-6.1.2:1.0"]="s_r:1000000"
+USB_PORTS["1-6.1.3:1.0"]="m_l:1000000"
+USB_PORTS["1-6.1.4:1.0"]="m_r:1000000"
 
 # Whether to ignore CAN quantity check (default false)
 IGNORE_CHECK=false
